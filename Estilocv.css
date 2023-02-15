@@ -1,0 +1,149 @@
+* h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.5px;
+}
+* h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+* h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    word-spacing: 8px;
+}
+* p, li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+* a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(253, 250, 250);
+    text-decoration: none;
+    padding: 12px;
+}
+.chico {
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.grande {
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.grid-container {
+    display: grid;
+    gap: 15px;
+    background-color: rgb(24, 22, 22);
+    padding: 10px;
+    color: rgb(253, 250, 250);      
+}
+.grid-item {
+    text-align: justify;
+    line-height: 12px;
+    padding-left: 25px;
+    padding-top: 7.5px;
+    padding-right: 25px;
+    padding-bottom: 7.5px;
+    border: 2px;
+    margin: 0px;
+    font-size: 17px;
+}
+.item1 {
+    /** En esta sección, que es el area de fondo blanco a la izquierda, quise que el contenido
+    fuera flexible, expandiendose o contrayendose a medida que cambiaran las otras areas en fondo negro
+    cuando se usaran los botones "leer mas" - "leer menos". Probé conbiando "grid-row: 1 / span: auto"
+    y no funciona... me gustaría un comentario sobre esto si es posible*/
+    background-color: rgb(253, 250, 250);
+    grid-column: 1;
+    grid-row: 1 / span 8;
+    color: rgb(24, 22, 22);
+}
+.item4 {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+}
+.item15 {
+    grid-column: 1 / span 3;
+    grid-row: 9;
+    text-align: center;
+    background-color:rgb(24, 22, 22);
+    color: rgb(253, 250, 250);
+}
+.fotocentrada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.centro-hiperlinks {
+    text-align: center;
+    word-spacing: auto;
+}
+#EMU {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+#more-o {
+    display: none;
+}
+#more-m {
+    display: none;
+}
+#more-c {
+    display: none;
+}
+#more-co {
+    display: none;
+}
+#more-net {
+    display: none;
+}
+#myBtn-o {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(24, 22, 22);
+    text-decoration: none;
+    padding: 6px;
+}
+#myBtn-m {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(24, 22, 22);
+    text-decoration: none;
+    padding: 6px;
+}
+#myBtn-c {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(24, 22, 22);
+    text-decoration: none;
+    padding: 6px;
+}
+#myBtn-co {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(24, 22, 22);
+    text-decoration: none;
+    padding: 6px;
+}
+#myBtn-net {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(24, 22, 22);
+    text-decoration: none;
+    padding: 6px;
+}

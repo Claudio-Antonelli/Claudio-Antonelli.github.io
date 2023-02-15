@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0"/>
+    <title>CV ANTONELLI</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\Claudio\Desarrollo Front-end\Proyectos\Proyecto CV\Estilocv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script>
+        function masinfoosirius() {
+          var dots = document.getElementById("dots-o");
+          var moreText = document.getElementById("more-o");
+          var btnText = document.getElementById("myBtn-o");
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Leer mas"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Leer menos"; 
+            moreText.style.display = "inline";
+          }
+        }
+        function masinfoministerio() {
+            var dots = document.getElementById("dots-m");
+            var moreText = document.getElementById("more-m");
+            var btnText = document.getElementById("myBtn-m");
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Leer mas"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Leer menos"; 
+            moreText.style.display = "inline";
+          }
+        }
+        function masinfoch2m() {
+            var dots = document.getElementById("dots-c");
+            var moreText = document.getElementById("more-c");
+            var btnText = document.getElementById("myBtn-c");
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Leer mas"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Leer menos"; 
+            moreText.style.display = "inline";
+          }
+        }
+        function masinfoconsultor() {
+            var dots = document.getElementById("dots-co");
+            var moreText = document.getElementById("more-co");
+            var btnText = document.getElementById("myBtn-co");
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Leer mas"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Leer menos"; 
+            moreText.style.display = "inline";
+          }
+        }
+        function masinfonetcds() {
+            var dots = document.getElementById("dots-net");
+            var moreText = document.getElementById("more-net");
+            var btnText = document.getElementById("myBtn-net");
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Leer mas"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Leer menos"; 
+            moreText.style.display = "inline";
+          }
+        }
+        function printPageArea(areaID){
+            var printContent = document.getElementById(areaID).innerHTML;
+            var originalContent = document.body.innerHTML;
+            document.body.innerHTML = printContent;
+            window.print();
+            document.body.innerHTML = originalContent;
+        }
+    </script>
+</head>
+<body>
+    <div id="printableArea" class="grid-container">
+        <div class="grid-item item1">
+            <img id="foto" class="fotocentrada" src="C:\Users\Claudio\Desarrollo Front-end\Proyectos\Proyecto CV\Claudio3R.png" alt="Foto personal" style="width: 50%"/>
+            <h3>OBJETIVO</h3>
+            <p class="chico">Asegurar una posición como Gerente de Proyectos, ofreciendo más de 20 años de experiencia y probada capacidad organizacional.
+                Actualmente en busca de una posición de responsabilidad en la gestión de proyectos de construcción de obra pública o privada.</p>
+            <br>
+                <h3>COMPETENCIAS</h3>
+            <ul class="grande">
+                <li>Arquitectura y Diseño</li>
+                <li>Gestión de proyectos</li>
+                <li>Gerenciamiento de Construcción</li>
+                <li>Planificación CPM - PERT</li>
+                <li>Gestión de cambios</li>
+                <li>Gestión de Riesgos</li>
+                <li>Estimación y presupuestos</li>
+                <li>Estimación de tres puntos</li>
+                <li>Tablero de control</li>
+                <li>Reportes de estado</li>
+                <li>Gestión de licitaciones</li>
+                <li>Coordinación de contratistas</li>
+                <li>Manejo de Personal</li>
+            </ul>
+            <a name="Educacion"></a>
+            <h3>EDUCACION</h3>
+            <p><img id="logounr" src="C:\Users\Claudio\Desarrollo Front-end\Proyectos\Proyecto CV\logoUNR.png" alt="logoURosario" style="width: 25%;"/></p>
+            <p id="UNR"><strong>1995 - ARQUITECTO</strong></p>
+            <P>Facultad de Arquitectura, Planeamiento y Diseño.</p> 
+            <P>Rosario, Santa Fe – Argentina</P>
+            <p><img src="C:\Users\Claudio\Desarrollo Front-end\Proyectos\Proyecto CV\logoEMU.png" alt="logoUMichigan" style="width: 25%;"/></p>
+            <p id="EMU"><strong>2007 - MS CONSTRUCTION MANAGEMENT</strong></p>
+            <P>School of Engineering Technology</P> 
+            <P>Ypsilanti, Michigan - USA</P>
+            <a name="HerramientasGestion"></a>
+            <h3>HERRAMIENTAS DE GESTION</h3>
+            <ul class="grande">
+                <li>Microsoft Project</li>
+                <li>Conocimiento basico de P6</li>
+                <li>Primavera Risk Analysis</li>
+                <li>MeisterTask</li>
+                <li>AutoCAD</li>
+                <li>Sketchup Pro y V-Ray</li>
+                <li>AutoDesk Inventor</li>
+                <li>Libre Office Suite</li>
+                <li>Microsoft Office</li>
+            </ul>
+            <a name="Cualidades"></a>
+            <h3>CUALIDADES PERSONALES</h3>
+            <ul class="grande">
+                <li>Atencion al detalle</li>
+                <li>Orientado a la solución de problemas</li>
+                <li>Flexible y adaptable</li>
+            </ul>
+            <a name="Idiomas"></a>
+            <h3>IDIOMAS</h3>
+            <ul class="grande">
+                <li>Español nativo</li>
+                <li>Ingles fluido</li>
+            </ul>
+            <a name="AreasInteres"></a>
+            <h3>AREAS DE INTERES</h3>
+            <ul class="grande">
+                <li>Desarrollo organizacional</li>
+                <li>Gestión del conocimiento</li>
+                <li>Planificación 4D</li>
+                <li>Construction LEAN (Sin desperdicios)</li>
+                <li>Fast-track de Ingeniería y Construcción</li>
+            </ul>
+            <a name="CursosDictados"></a>
+            <h3>CURSOS DICTADOS</h3>
+            <ul class="grande">
+                <li><strong>CH2M - JACOBS, Rosario, Santa Fe:</strong>
+                    <br>“Análisis y Gestión de Riesgos”</li>
+                <li><strong>SILEX Argentina, Salta, Salta:</strong>
+                    <br>“Introducción a la Gestión de Proyectos”</li>
+                <li><strong>AXION-LIFT, San Francisco, Cordoba:</strong>
+                    <br>“Planificación y control de Proyectos”</li>
+                <li><strong>NET CDS, Rosario, Santa Fe:</strong>
+                    <br>“Introducción a la Gestión de Proyectos”</li>
+            </ul>
+        </div>
+        <div class="grid-item item2">
+            <h2>CLAUDIO ANTONELLI</h2>
+            <h3>Construction Project Manager</h3>
+        </div>
+        <div class="grid-item item3">
+            <P><i class="fa fa-phone"></i> +54 (341) 511 - 3497</P>
+            <p><i class="material-icons">mail_outline</i><a href="mailto:antonelli.claud@gmail.com"> Contactar a Claudio por correo</a></p>
+            <p><i class="fa fa-linkedin-square" style="font-size:24px"></i><a href="https://www.linkedin.com/in/antonelli-pm"> Visitar el perfil publico de Claudio</a></p>
+        </div>
+        <div class="grid-item item4">
+            <h3>SUMARIO</h3>
+            <p class="grande" >Bilingüe, proactivo, flexible, innovativo y profesional. Con excelentes cualidades organizacionales, de planificación y gestión y con la capacidad de poder trabajar en ambientes dinámicos. Especializado en la gestión de proyectos institucionales, comerciales, residenciales e industriales, coordinando todas las tareas y actividades para asegurar su completamiento en tiempo, dentro del presupuesto asignado y con foco en la calidad de los resultados y la seguridad de sus operaciones.</P>
+            <hr>
+            <div class="centro-hiperlinks">
+                <a href="#Educacion">Educacion</a>
+                <a href="#HerramientasGestion">Herramientas</a>
+                <a href="#Cualidades">Cualidades Personales</a>
+                <a href="#Idiomas">Idiomas</a>
+                <a href="#AreasInteres">Areas de Interes</a>
+                <a href="#CursosDictados">Cursos</a>
+            </div>
+            <hr>
+        </div>
+        <div class="grid-item item5">
+            <P><strong>OSIRIUS GROUP</strong></p>
+            <p>16 Avenue de Triel, Poissy, France</p>
+            <p>Coordinador de Facilities & Utilities</p>
+            <p>Febrero a Agosto 2020</P>
+        </div>
+        <div class="grid-item item6">
+            <p class="grande">Coordinador de equipo de ingeniería básica de utilidades de proceso para planta de pintura de PSA (Citroen - Peugeot) ubicada en Gliwice, Polonia (antes OPEL), para un nuevo vehículo utilitario. La ingeniería básica se desarrolló en Rosario y la coordinación fue remota.<span id="dots-o"> . . . </span></p>
+            <p class="grande"><span id="more-o"><strong><u>Responsabilidades</u>:</strong> Garantizar el flujo de información desde los equipos de ingeniería, proveedores y subcontratistas hacia el equipo de utilidades con el objeto de garantizar que el diseño de las instalaciones de gas natural, aire comprimido, agua de proceso, sistema de incendios, potencia y datos, se entreguen en tiempo y según requerimientos del cliente.</span></p>
+            <button onclick="masinfoosirius()" id="myBtn-o">Leer mas</button>
+        </div>
+        <div class="grid-item item7">
+            <p><strong>MINISTERIO DE EDUCACIÓN SANTA FE</strong></p>
+            <P>Echeverría 150 bis, Rosario, Santa Fe</P>
+            <P>Profesional de Proyecto e Inspección</P>
+            <p>Mayo 2014 - presente</p>
+        </div>
+        <div class="grid-item item8">
+            <p class="grande">Responsable de proyectos y dirección de obra para edificios escolares de la Región VI del Ministerio de Educación de la Provincia de Santa Fe. Gestión completa de obra desde inicio a recepción definitiva en Licitaciones Públicas PRO.MU.D.I – Ministerio de Educación, inspector de obra del “Plan de Refacción y Mantenimiento en Edificios Escolares de la Región VI”.<span id="dots-m"> . . .</span></p>
+            <p class="grande"><span id="more-m"> <strong><u>Responsabilidades</u>:</strong> Coordinar tareas de diseño y armado de pliegos, analisis de costos, presupuestos de obra pública, planificación y control de avances, inspección de obras, control y coordinación de contratistas, informes y reportes, medición y certificación de avances, curvas de inversión, re-determinación de precios de obra pública según ley 5188 y decreto 12046.</span></p>
+            <button onclick="masinfoministerio()" id="myBtn-m">Leer mas</button>
+        </div>
+        <div class="grid-item item9">
+            <p><strong>CH2M - JACOBS ENGINEERING</strong></p>
+            <p>Av. Alberdi 153, Rosario, Santa Fe</p>
+            <p>Planificador y controlador (part-time)</p>
+            <P>Junio 2016 - Noviembre 2018</P>
+        </div>
+        <div class="grid-item item10">
+        <p class="grande">Responsable de Planificación y Control de gestión de obras industriales de clientes corporativos. Control de gestión de proyectos de ingeniería, con especial énfasis en control de cambios y control de riesgos asociados a su desempeño habiendo trabajado para los proyectos “RENOVA”, Timbúes, Santa Fe y “AGD - Aceitera General Deheza”, General Deheza, Cordoba.<span id="dots-c"> . . .</span></p>
+        <p class="grande"><span id="more-c"><strong><u>Responsabilidades</u>:</strong> Desarrollar planes de ejecución de proyecto (PEP), cronogramas Fast-track o CPM de ingeniería y construcción. Establecer, monitorear y controlar índices de desempeño (KPI`s), reportar varianzas y resultados. Gestionar ordenes de cambio de ingeniería y construcción. Diseñar y gestionar tableros de control (Dashboard). Gestionar la integración de tareas y recursos utilizando Meistertask. Conducir reuniones de identificación / priorización de riesgos y desarrollar análisis cuali-cuantitativo de riesgos y plan de respuestas. Desarrollar estimaciones de 3 puntos para estimar probabilidad y efectos de riesgos sobre plazos y costos. Elaborar reportes detallados internos (PM) y externos (cliente).</span></p> 
+        <button onclick="masinfoch2m()" id="myBtn-c">Leer mas</button>   
+        </div>
+        <div class="grid-item item11">
+            <p><strong>CONSULTOR INDEPENDIENTE</strong></p>
+            <P>3 de Febrero 557 - 7° D, Rosario, Santa Fe</P>
+            <P>Consultoría PM / CM</P>
+            <p>Marzo 2010 - presente</p>
+        </div>
+        <div class="grid-item item12">
+            <p class="grande">Consultor en las disciplinas de Project Management y Construction Management sirviendo a clientes corporativos con entrenamiento y asesoramiento para la implementación corporativa de procesos y procedimientos modernos de gestión de proyectos AEC (Arquitecture, Engineering & Construction).<span id="dots-co"> . . .</span></p>
+            <p class="grande"><span id="more-co"> <strong><u>Responsabilidades</u>:</strong> Facilitador, organizador y coordinador de tareas de proyecto en equipos multidisciplinarios (civil, mecánica, eléctrica, instrumentación). Desarrollar de cronogramas Fast-track de ingeniería y construcción de proyectos industriales. Planificar e implementar herramientas de control apropiadas al tipo de proyecto. Monitorear, controlar y reportar varianzas y no-conformidades en plazos, costos y calidad elaborando reportes sumarios o detallados. Implementar y/o sugerir acciones correctivas para devolver el proyecto al desempeño deseado. Conducir sesiones de lecciones aprendidas en etapa de cierre de proyecto comunicando hallazgos y conclusiones.</p>
+            <button onclick="masinfoconsultor()" id="myBtn-co">Leer mas</button>
+        </div>
+        <div class="grid-item item13">
+            <p><strong>NET CDS HOLDING</strong></p>
+            <P>Sarmiento 734 - 3° piso, Rosario, Santa Fe</P>
+            <p>Manager UN - PMiQ</p>
+            <p>Febrero 2008 - Octubre 2009</p>
+        </div>
+        <div class="grid-item item14">
+            <p class="grande">En NET CDS trabajé con líderes e ingenieros de proyecto en la planificación, dirección, organización y control para la implementación de técnicas y herramientas modernas de gestión de proyectos en una unidad de negocios dedicada a proveer ingeniería y proyectos llave en mano para clientes corporativos.<span id="dots-net"> . . .</span></p>
+            <p class="grande"><span id="more-net"> <strong><u>Responsabilidades</u>:</strong> Analizar roles, responsabilidades, procesos y procedimientos, diagnosticar e informar sobre áreas y márgenes de mejora. Corregir procesos existentes, diseñar e implementar nuevos procedimientos para la gestión de proyectos siguiendo lineamientos del Project Management Institute. Preparar y dictar charlas de capacitación sobre teoría, técnicas y herramientas de Gestión de Proyectos.</p>
+            <button onclick="masinfonetcds()" id="myBtn-net">Leer mas</button>
+        </div>
+        </div>
+        <div class="grid-item item15">
+            <h4>ARGENTINA PROGRAMA 4.0 - Primeros pasos del desarrollo Front-End - ACADEMIA: TICMAS - ALUMNO: Claudio Antonelli - Febrero, 2023<h4>
+            <a href="javascript:void(0);" onclick="printPageArea('printableArea')">Imprimir SUMARIO</a>
+        </div>
+    </div>
+</body>
+</html>
